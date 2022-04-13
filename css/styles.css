@@ -1043,7 +1043,6 @@ appearance: none;
 .modal-icons{
   outline:none
 }
-
 .backdrop-svg:hover,
 .backdrop-svg:focus,
 .modal-form-input:focus-within + .modal-icons,
