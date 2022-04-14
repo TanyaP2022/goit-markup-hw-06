@@ -428,66 +428,62 @@
             </button>
             <p class="modal-head">Оставьте свои данные, мы вам перезвоним</p>
             <form class="modal-form" autocomplete="off">
-                <div class="modal-label">
+                <label class="modal-label" for="name">
                     <span class="modal-text">Имя</span>
-                    <label class="modal-form-label">
                         <input 
                         class="modal-form-input" 
                         type="text" 
                         name="name"  
                         minlength="5" 
                         placeholder=" "
+                        id="name"
                         required 
                         autofocus
                         />
                         <svg class="modal-icons" width="18" height="18">
                             <use href="./images/icons.svg#icon-person"></use>
                         </svg>
-                    </label>
-                </div>
+                </label>
 
-                <div class="modal-label">
+                <label class="modal-label" for="tel">
                     <span class="modal-text">Телефон</span>
-                    <label class="modal-form-label">
                         <input 
                         class="modal-form-input" 
                         type="tel" 
                         name="tel" 
                         placeholder=" "
+                        id="tel"
                         />
                         <svg class="modal-icons" width="18" height="18">
                             <use href="./images/icons.svg#icon-phone"></use>
                         </svg>
-                    </label>
-                </div>
+                </label>
 
-                <div class="modal-label">
+                <label class="modal-label" for="email">
                     <span class="modal-text">Почта</span>
-                    <label class="modal-form-label">
                         <input 
                         type="email" 
                         name="email" 
                         class="modal-form-input" 
                         placeholder=" "
+                        id="email"
                         />
                         <svg class="modal-icons" width="18" height="18">
                             <use href="./images/icons.svg#icon-email"></use>
                         </svg>
-                    </label>
-                </div>
+                </label>
 
-                <div class="modal-label">
+                <label class="modal-label" for="messags">
                         <span class="modal-text">Комментарий</span>
                         <textarea 
                             class="modal-form-messags"
                             name="text" 
                             placeholder="Введите текст"
                             rows="5"
-                            id="modal-form-messags" 
+                            id="messags" 
                         ></textarea>
-                </div>
-                <div class="modal-chek-cont">
-                    <label class="modal-chek-label">
+                </label>
+                <label class="modal-chek-label">
                         <input 
                         class="modal-chek" 
                         type="checkbox" 
@@ -495,12 +491,10 @@
                         value=""
                         />
                         <span class="modal-chek-icons"></span>
-                        <span class="modal-chek-text">Соглашаюсь с рассылкой и принимаю</span>
-                        <span class="modal-chek-text">
+                        <span class="modal-chek-text">Соглашаюсь с рассылкой и принимаю
                             <a href="">Условия договора</a>
                         </span>                     
-                    </label>
-                </div>
+                </label>
                 <div class="modal-chek-btn-cont">
                     <button class="modal-chek-btn" type="submit">
                         Отправить
